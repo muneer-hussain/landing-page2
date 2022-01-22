@@ -98,6 +98,11 @@ span {
     padding-left: 110px;
     padding-right: 100px;
 }
+#section-3-2-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 #section-3-content h1 {
     font-weight: 800;
