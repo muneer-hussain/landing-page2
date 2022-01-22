@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-1 {
+    background-image: url("	https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 1;
+}
+
+.section-1 h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 10px 450px;
+    line-height: 1.2;
+}
+
+
+/* input box section 1  */
+
+#inputbox {
+    height: 60px;
+    width: 350px;
+    align-items: center;
+    padding-left: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+/* submit button in section 1 */
+
+#submit-button {
+    background: dodgerblue;
+    font-size: 20px;
+    height: 65px;
+    width: 120px;
+    margin-left: 50px;
+    color: white;
+}
+
+
+/* for input box and submit button  */
+
+span {
+    text-align: center;
+}
+
+.section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 90px;
+    text-align: center;
+    gap: 30px;
+    background-color: #F4F5FF;
+}
+
+.section-2 h1 {
+    padding-top: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.section-2 p {
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+
+/* section 3 */
+
+.section-3 {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+}
+
+#section-3-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 110px;
+    padding-right: 100px;
+}
+
+#section-3-content h1 {
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#section-3-content p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+#section-3-image img {
+    width: 50vw;
+    height: 75vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* section 4 */
+
+.section-4 {
+    background-color: #F4F5FF;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#section-4-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.section-4 h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section-4 p {
+    padding-top: 20px;
+    line-height: 1.4;
+    font-size: 20px;
+    padding-bottom: 94px;
+}
+
+#section-4-image {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#first-head {
+    padding-top: 83px;
+    padding-bottom: 80px;
+    font-size: 40px;
+}
+
+
+/* sec 5 */
+
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url("	https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.section-5 h1 {
+    font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+
+/* Media queries */
+
+@media (max-width:500px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .section-1 h1 {
+        padding-right: 0px;
+        padding-left: 0px;
+        font-size: 35px;
+    }
+    #inputbox {
+        height: 20px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    #submit-button {
+        font-size: 15px;
+        margin-top: 10px;
+        padding: 0px;
+        display: inline-block;
+        height: 50px;
+        width: 60px;
+        margin-right: 29px;
+        align-items: center;
+    }
+    .section-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 25px 25px 10px 25px;
+    }
+    .section-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "content" "image";
+        margin: 0;
+        padding: 15px 0px 10px 0px;
+    }
+    #section-3-content {
+        padding: 0;
+    }
+    #section-3-image img {
+        width: 100vw;
+        height: 50vh;
+        margin: 0;
+        padding: 0;
+    }
+    #section-3-2-content {
+        grid-area: content;
+    }
+    #section-3-2-image {
+        grid-area: image;
+    }
+    #section-3-content p {
+        text-align: center;
+        padding: 20px 30px;
+    }
+    #section-3-content h1 {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+        text-align: center;
+    }
+    #section-4-grid {
+        grid-template-columns: 1fr;
+        padding: 25px;
+    }
+    .section-5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
